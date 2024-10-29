@@ -13,14 +13,18 @@ const Missions = () => {
         <h2 className='text-whiten text-[36px] lg:text-[72px] font-bold font-bebas'><span className='text-red'>MISSIONS</span> BOARD</h2>
         <hr className='border-t-2 border-white w-full my-4' />
         <div className='flex gap-[18px] lg:gap-[39px]'>
-          <Link href='/' target="_blank">
+          <Link href=''>
             <button className='text-black uppercase drop-shadow-lg justify-center text-[12px] lg:text-[20px] lg:leading-[19px] bg-white font-sans font-bold py-[6px] lg:py-[10px] px-[22px] flex items-center hover:scale-105 transition duration-300 ease-in-out '>
               PROGRESS
             </button>
           </Link>
-          <Link href='/' target="_blank">
-            <button className='text-white uppercase drop-shadow-lg justify-center text-[12px] lg:text-[20px] lg:leading-[19px] font-sans py-[6px] lg:py-[10px] px-[22px]] flex items-center hover:scale-105 transition duration-300 ease-in-out '>
-              REWARDS
+          <Link href='' className='relative'>
+            <button className='text-white uppercase drop-shadow-lg justify-center text-[12px] lg:text-[20px] lg:leading-[19px] font-sans py-[6px] lg:py-[10px] px-[22px]] flex items-center hover:scale-105 transition duration-300 ease-in-out group'>
+              COMPLETED
+              {/* Tooltip */}
+              <div className='absolute bottom-full left-1/2 transform -translate-x-1/2 uppercase w-max px-2 py-1 text-[8px] font-medium text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+                Coming Soon
+              </div>
             </button>
           </Link>
         </div>

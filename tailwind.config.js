@@ -54,6 +54,7 @@ module.exports = {
       },
       backgroundImage: {
         hero: 'url(/hero/bg.png)',
+        socials: 'url(/socials/bg.png)',
       },
       boxShadow: {
         primary: '40px 4px 40px 0px rgba(68, 68, 0.25)'

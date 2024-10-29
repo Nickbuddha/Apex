@@ -129,15 +129,6 @@ const Tokenomics = () => {
         }
       `}</style>
 
-      
-      <Image
-        src="/tokenomics/logos-binance.png"
-        alt="Aguja"
-        layout="responsive"
-        width={343} 
-        height={13} 
-        className="mx-auto pt-[37px] lg:hidden"
-      />
     </section>
   );
 };

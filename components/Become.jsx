@@ -10,7 +10,7 @@ const Become = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: true, amount: 0.1 }}
-        className='container flex flex-col justify-center items-center gap-[23px] md:gap-0'>
+        className='container flex flex-col justify-center items-center'>
         
         {/* Reemplazamos el h2 con el video */}
         <video 
@@ -24,7 +24,7 @@ const Become = () => {
           Tu navegador no soporta la etiqueta de video.
         </video>
         
-        <h3 className='text-whiten text-[13px] md:text-[25px] lg:text-[30px] leading-[18px] md:leading-[30px] lg:leading-[44px] text-center w-[285px] md:w-[585px] lg:w-[845px] xl:w-[1327px] font-universo font-bold mt-[-78px] lg:mt-[100px]'>
+        <h3 className='z-10 text-whiten text-[13px] md:text-[25px] lg:text-[30px] leading-[18px] md:leading-[30px] lg:leading-[44px] text-center w-[285px] md:w-[585px] lg:w-[845px] xl:w-[1327px] font-universo font-bold'>
           CHAOS is always right around the corner. And we.. my friend, weee are the next APEX generation that will take control of the situation.
         </h3>
       </motion.div>

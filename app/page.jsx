@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Become from "@/components/Become";
@@ -10,8 +9,9 @@ import Missions from "@/components/Missions";
 import Roadmap from "@/components/Roadmap";
 import Tokenomics from "@/components/Tokenomics";
 import Cuidado from "@/components/Cuidado";
-import Spinner from "@/components/Spinner"; // Asegúrate de que la ruta sea correcta
+import Spinner from "@/components/Spinner"; 
 import Listings from "@/components/Listings";
+// import Socials from "@/components/Socials";
 
 export default function Home() {
     const [loading, setLoading] = useState(true);
@@ -39,6 +39,7 @@ export default function Home() {
             <Roadmap />
             <Tokenomics />
             <div className="hidden lg:block"><Listings /></div>
+            {/* <div className="hidden lg:block"><Socials /></div> */}
             <Cuidado />
             
         </main>

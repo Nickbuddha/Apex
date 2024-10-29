@@ -4,7 +4,7 @@ import { fadeIn } from "@/variants"
 
 const Listings = () => {
   return (
-    <section className='container pt-[49px] lg:pt-[77px] xl:pt-[188px] flex flex-col gap-[29px]'>
+    <section className='container pt-[49px] lg:pt-[77px] xl:pt-[188px] flex flex-col gap-[29px] pb-[171px]'>
       {/* Título "TOKENOMICS" */}
       <div className="flex flex-col gap-[3px] lg:gap-[19px] lg:pt-[32px]">
         <h2 className='text-white text-[36px] lg:text-[72px] font-bold font-bebas'>LISTINGS</h2>
@@ -108,7 +108,7 @@ const Listings = () => {
             {/* BOTONES XL*/}
             <div className='xl:flex flex-col gap-[51px] hidden'>
               <div className='flex gap-[42px]'>
-                <div className='flex flex-col'>
+                <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[40px] group'>
                     <Image src="/listings/gecko.png" width={224} height={39} alt="" className='py-2 px-4 xl:py-6 xl:px-4' />
                     {/* Tooltip */}

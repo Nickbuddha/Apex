@@ -8,11 +8,6 @@ const Gallery2 = () => {
     { original: '/missions/missions-03.png', thumbnail: '/missions/missions-03.png' },
     { original: '/missions/missions-04.png', thumbnail: '/missions/missions-04.png' },
     { original: '/missions/missions-05.png', thumbnail: '/missions/missions-05.png' },
-    { original: '/missions/missions-01.png', thumbnail: '/missions/missions-01.png' },
-    { original: '/missions/missions-02.png', thumbnail: '/missions/missions-02.png' },
-    { original: '/missions/missions-03.png', thumbnail: '/missions/missions-03.png' },
-    { original: '/missions/missions-04.png', thumbnail: '/missions/missions-04.png' },
-    { original: '/missions/missions-05.png', thumbnail: '/missions/missions-05.png' },
   ];
 
   const [selectedImage, setSelectedImage] = useState(images[0].original);
