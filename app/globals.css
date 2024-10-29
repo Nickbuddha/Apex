@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* globals.css */
+
+@font-face {
+    font-family: 'Integral';
+    src: url('/fonts/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Integral';
+    src: url('/fonts/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Universo';
+    src: url('/fonts/Universo-Sans-Font-Family/Demo_Fonts/Fontspring-DEMO-universo-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Universo';
+    src: url('/fonts/Universo-Sans-Font-Family/Demo_Fonts/Fontspring-DEMO-universo-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+  
+
+@layer base {
+    * {
+        @apply box-border;
+    }
+    body {
+        @apply font-mitr bg-black text-black tracking-[0.5px];
+    }
+    h1,
+    h2,
+    h3 {
+        @apply font-mitr font-bold;
+    }
+    h1 {
+        @apply text-[38px] leading-[46px]; 
+    }
+    h2 {
+        @apply text-[21px] leading-[38px];
+    }
+    h3 {
+        @apply text-[15px] leading-[22px];
+    }
+    p {
+        @apply text-[20px] leading-[25px];
+    }
+    a {
+        @apply text-white hover:text-white transition-all duration-300 cursor-pointer text-base
+    }
+    label {
+        @apply text-white text-base uppercase font-normal block mb-2;
+    }
+    /* .active {
+        @apply font-semibold;
+    } */
+}
+
+@screen md {
+    h1 {
+        @apply text-[45px] leading-[55px];
+    }
+    h2 {
+        @apply text-[21px] leading-[38px];
+    }
+    h3 {
+        @apply text-[15px] leading-[22px];
+    }
+    p {
+        @apply text-[20px] leading-[25px];
+    }
+    a {
+        @apply text-base;
+    }
+    
+}
+
+@screen lg {
+    h1 {
+        @apply text-[54px] leading-[55px];
+    }
+    h2 {
+        @apply text-[32px] leading-[40px];
+    }
+    h3 {
+        @apply text-[15px] leading-[22px];
+    }
+    p {
+        @apply text-[24px] leading-[29px];
+    }
+    a {
+        @apply text-base;
+    }
+    
+}
+
+@screen xl {
+    h1 {
+        @apply text-[66px] leading-[67px];
+    }
+    h2 {
+        @apply text-[47px] leading-[50px];
+    }
+    h3 {
+        @apply text-[35px] leading-[22px];
+    }
+    p {
+        @apply text-[22px] leading-10;
+    }
+    a {
+        @apply text-xl;
+    }
+    
+}
