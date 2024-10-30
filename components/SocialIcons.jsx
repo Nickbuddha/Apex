@@ -7,7 +7,7 @@ import { fadeIn } from "@/variants"
 const SocialIcons = () => {
   return (
     <div>
-        <div className='flex gap-[16px] lg:hidden xl:flex'>
+        <div className='flex gap-[16px] px-5 lg:hidden  xl:flex'>
             <Link href='/'>
                 <Image src='/social-icons/twitter.png' width={59} height={59} alt=""  />
             </Link>

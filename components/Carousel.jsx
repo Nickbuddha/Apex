@@ -6,8 +6,9 @@ import React, { useState, useEffect } from "react";
 const Carousel = () => {
   const products = [
     { id: 1, img1: "/carrousel/Mono-1.png" },
-    { id: 2, img1: "/carrousel/MONKEY-01.png" },
-    // { id: 3, img1: "/carrousel/mono-1.png" },
+    { id: 2, img1: "/carrousel/Mono-2.png" },
+    { id: 2, img1: "/carrousel/Mono-3.png" },
+    { id: 2, img1: "/carrousel/Mono-4.png" },
   ];
 
   const [count, setCount] = useState(0);

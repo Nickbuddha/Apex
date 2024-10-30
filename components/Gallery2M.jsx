@@ -14,42 +14,7 @@ const Gallery2M = () => {
 
   return (
     <div className='relative flex flex-col pt-[18px]'>
-      <div className="absolute top-[65px] left-[40%] translate-x-[-50%] z-10 block md:hidden">
-        <Image
-          src="/missions/textm.png"
-          width={317} 
-          height={128}
-          alt="text"
-          className="max-w-none"
-        />
-      </div>
-      <div className="absolute top-[74px] left-[40%] translate-x-[-50%] z-10 hidden md:block lg:hidden">
-        <Image
-          src="/missions/textm.png"
-          width={417} 
-          height={200}
-          alt="text"
-          className="max-w-none"
-        />
-      </div>
-      <div className="absolute top-[74px] left-[25%] translate-x-[-50%] z-10 hidden lg:block">
-        <Image
-          src="/missions/text.png"
-          width={629} 
-          height={240}
-          alt="text"
-          className="max-w-none"
-        />
-      </div>
-      <div className="absolute top-[487px] left-[23%] translate-x-[-50%] z-10">
-        <Image
-          src="/missions/progress.png"
-          width={584} 
-          height={76}
-          alt="text"
-          className="max-w-none hidden lg:block"
-        />
-      </div>
+      
 
       {/* Imagen grande principal */}
       <div>

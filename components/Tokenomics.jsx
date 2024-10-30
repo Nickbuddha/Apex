@@ -50,7 +50,7 @@ const Tokenomics = () => {
             />
   
             {/* Imagen de la aguja con animación de rotación */}
-            <div className="absolute top-[33%] left-[47.6%] transform -translate-x-1/2 -translate-y-1/2 w-[60px] h-auto rotate-needle">
+            <div className="absolute top-[30%] left-[46%] transform -translate-x-1/2 -translate-y-1/2 w-[55px] h-auto rotate-needle">
               <Image
                 src="/tokenomics/aguja.png"
                 alt="Aguja"

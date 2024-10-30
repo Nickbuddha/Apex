@@ -29,7 +29,7 @@ const Cuidado = () => {
   }, []);
 
   return (
-    <div className=' pt-[35px] lg:pt-[35px] xl:pt-[100px] pb-[50px] lg:pb-[50px] xl:lg:pb-[100px]'>
+    <div className=' pt-[35px] lg:pt-[220px] pb-[50px] lg:pb-[220px]'>
       
     </div>
   );

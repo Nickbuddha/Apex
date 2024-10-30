@@ -11,7 +11,7 @@ import Tokenomics from "@/components/Tokenomics";
 import Cuidado from "@/components/Cuidado";
 import Spinner from "@/components/Spinner"; 
 import Listings from "@/components/Listings";
-// import Socials from "@/components/Socials";
+import Socials from "@/components/Socials";
 
 export default function Home() {
     const [loading, setLoading] = useState(true);
@@ -38,8 +38,8 @@ export default function Home() {
             <Missions />
             <Roadmap />
             <Tokenomics />
-            <div className="hidden lg:block"><Listings /></div>
-            {/* <div className="hidden lg:block"><Socials /></div> */}
+            <Listings />
+            <Socials />
             <Cuidado />
             
         </main>

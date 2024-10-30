@@ -6,14 +6,14 @@ import { fadeIn } from "@/variants"
 
 const Hero = () => {
   return (
-    <section className='pt-[210px] lg:pt-[144px] xl:pt-[257px] flex flex-col lg:flex-row gap-[45px] lg:gap-0 xl:gap-[70px] lg:justify-around lg:pr-[100px]'>
+    <section className='pt-[125px] lg:pt-[144px] xl:pt-[257px] flex flex-col lg:flex-row gap-[45px] lg:gap-0 xl:gap-[70px] lg:justify-around lg:pr-[100px]'>
       {/* Left Side - Gallery and Social Icons */}
-      <div className="flex flex-col gap-[65px] lg:gap-[27px] xl:gap-[65px] mt-[-10px]">
-        <Gallery />
+      <div className="flex flex-col lg:flex-col-reverse gap-[34px] lg:gap-[27px] xl:gap-[65px] mt-[-10px]">
         {/* Añadir SocialIcons debajo de la galería */}
-        <div className="flex px-[20px] md:p-0 lg:pl-[79px] fixed z-20 top-28 justify-center lg:static lg:bottom-auto lg:justify-start">
+        <div className="flex px-[20px] md:p-0 pl-0 lg:pl-[79px] z-20 top-28 lg:static lg:bottom-auto justify-start">
           <SocialIcons />
         </div>
+        <Gallery />
       </div>
 
       <motion.div 
