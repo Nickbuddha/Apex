@@ -6,7 +6,7 @@ import { fadeIn } from "@/variants";
 
 const Hero = () => {
   return (
-    <section className='pt-[125px] lg:pt-[144px] xl:pt-[257px] flex flex-col lg:flex-row gap-[45px] lg:gap-0 xl:gap-[70px] lg:justify-around lg:pr-[100px]'>
+    <section className='pt-[125px] lg:pt-[144px] xl:pt-[257px] flex flex-col lg:flex-row gap-[45px] lg:gap-0 xl:gap-[70px] lg:pr-[100px]'>
       {/* Left Side - Gallery and Social Icons */}
       <div className="flex flex-col lg:flex-col-reverse gap-[34px] lg:gap-[27px] xl:gap-[65px] mt-[-10px]">
         {/* Añadir SocialIcons debajo de la galería */}
@@ -55,9 +55,8 @@ const Hero = () => {
               <Image src="/hero/wstar.png" alt="wStar" width={31} height={33} />
               <Image src="/hero/wstar.png" alt="wStar" width={31} height={33} />
             </div>
-            <p className="block md:hidden pt-[17px] lg:pt-[41px] text-whiten w-[130px] lg:w-[272px] text-[8px] lg:text-[18px] leading-4 text-start">Too much chaos for ordinary people! What about you?</p>
-            <p className="hidden md:block pt-[17px] lg:pt-[20px] xl:pt-[37px] text-whiten w-[228px] lg:w-[272px] text-[15px] leading-24 text-start">Embrace the chaos, be the most wanted. Join the Syndicate.</p>
-            <p className="hidden lg:block pt-[17px] lg:pt-[10px] xl:pt-[34px] text-whiten w-[363px] lg:w-[272px] text-[15px] leading-24 text-start">Current wanted LEVEL: 3</p>
+            <p className="pt-[17px] lg:pt-[20px] xl:pt-[37px] text-whiten w-[228px] lg:w-[272px] text-[15px] leading-24 text-start universo-fon">Embrace the chaos, be the most wanted. Join the Syndicate.</p>
+            <p className="pt-[17px] lg:pt-[10px] xl:pt-[34px] text-[#FFCB45]  lg:w-[272px] text-[15px] leading-24 text-start universo-font">Current wanted LEVEL: 3</p>
           </div>
         </div> 
 
