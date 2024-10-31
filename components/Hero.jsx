@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Gallery from './Gallery';
 import SocialIcons from './SocialIcons'; // Importa los iconos de redes sociales
-import { motion } from 'framer-motion'
-import { fadeIn } from "@/variants"
+import { motion } from 'framer-motion';
+import { fadeIn } from "@/variants";
 
 const Hero = () => {
   return (
@@ -61,32 +61,19 @@ const Hero = () => {
           </div>
         </div> 
 
-        {/* MONKEY Image */}
+        {/* MONKEY GIF */}
         <div className='block md:hidden'>
-          <video width={152} height={308} autoPlay muted loop>
-            <source src="/hero/APEX-WALK-001.mp4" type="video/mp4" />
-            Tu navegador no soporta la etiqueta de video.
-          </video>
+          <Image src="/hero/walkSeq.gif" alt="Monkey GIF" width={152} height={308} className="object-cover" />
         </div>
         <div className='hidden md:block lg:hidden'>
-          <video width={304} height={616} autoPlay muted loop>
-            <source src="/hero/APEX-WALK-001.mp4" type="video/mp4" />
-            Tu navegador no soporta la etiqueta de video.
-          </video>
+          <Image src="/hero/walkSeq.gif" alt="Monkey GIF" width={304} height={616} className="object-cover" />
         </div>
         <div className='hidden lg:block xl:hidden'>
-          <video width={280} height={650} autoPlay muted loop>
-            <source src="/hero/APEX-WALK-001.mp4" type="video/mp4" />
-            Tu navegador no soporta la etiqueta de video.
-          </video>
+          <Image src="/hero/walkSeq.gif" alt="Monkey GIF" width={280} height={650} className="object-cover" />
         </div>
         <div className='hidden xl:block'>
-          <video width={360} height={730} autoPlay muted loop>
-            <source src="/hero/APEX-WALK-001.mp4" type="video/mp4" />
-            Tu navegador no soporta la etiqueta de video.
-          </video>
+          <Image src="/hero/walkSeq.gif" alt="Monkey GIF" width={360} height={730} className="object-cover" />
         </div>
-
       </motion.div>
     </section>
   );

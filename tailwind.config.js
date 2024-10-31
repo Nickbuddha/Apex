@@ -49,8 +49,6 @@ module.exports = {
         mitr: ['var(--font-mitr)', 'sans-serif'],
         lato: ['var(--font-lato)', 'sans-serif'],
         bebas: ['var(--font-bebas)', 'sans-serif'],
-        integral: ['Integral', 'sans-serif'],
-        universo: ['Universo', 'sans-serif'],
       },
       backgroundImage: {
         hero: 'url(/hero/bg.png)',

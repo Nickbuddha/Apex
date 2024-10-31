@@ -6,30 +6,38 @@
 
 @font-face {
     font-family: 'Integral';
-    src: url('/fonts/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-regular.ttf') format('truetype');
+    src: url('/fonts/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-regular.otf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Integral';
-    src: url('/fonts/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-bold.ttf') format('truetype');
-    font-weight: 700;
+    src: url('/fonts/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-demibold.otf') format('truetype');
+    font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Universo';
-    src: url('/fonts/Universo-Sans-Font-Family/Demo_Fonts/Fontspring-DEMO-universo-regular.ttf') format('truetype');
+    src: url('/fonts/Universo-Sans-Font-Family/Demo_Fonts/Fontspring-DEMO-universo-regular.otf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Universo';
-    src: url('/fonts/Universo-Sans-Font-Family/Demo_Fonts/Fontspring-DEMO-universo-bold.ttf') format('truetype');
+    src: url('/fonts/Universo-Sans-Font-Family/Demo_Fonts/Fontspring-DEMO-universo-bold.otf') format('truetype');
     font-weight: 700;
     font-style: normal;
+}
+
+.universo-font {
+    font-family: 'Universo', sans-serif;
+}
+
+.integral-font {
+    font-family: 'Integral', sans-serif;
 }
   
 
@@ -43,7 +51,7 @@
     h1,
     h2,
     h3 {
-        @apply font-mitr font-bold;
+        @apply  font-bold;
     }
     h1 {
         @apply text-[38px] leading-[46px]; 
@@ -67,6 +75,8 @@
         @apply font-semibold;
     } */
 }
+
+
 
 @screen md {
     h1 {

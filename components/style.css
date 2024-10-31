@@ -1,0 +1,12 @@
+/* Oculta la barra de desplazamiento en navegadores webkit */
+.scrollbar-hidden {
+    overflow-y: scroll; /* Permite el desplazamiento */
+  }
+  
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento */
+  }
+  
+  .scrollbar-hidden {
+    scrollbar-width: thin; /* Para Firefox */
+  }

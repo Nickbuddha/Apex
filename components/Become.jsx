@@ -24,10 +24,10 @@ const Become = () => {
           Tu navegador no soporta la etiqueta de video.
         </video>
         
-        <h3 className='z-10 text-whiten text-[13px] md:text-[25px] lg:text-[30px] leading-[18px] md:leading-[30px] lg:leading-[44px] text-center w-[285px] md:w-[585px] lg:w-[845px] xl:w-[1100px] font-universo font-bold pt-[29px]'>
+        <h3 className='z-10 text-whiten text-[13px] md:text-[25px] lg:text-[30px] leading-[18px] md:leading-[30px] lg:leading-[44px] text-center w-[285px] md:w-[585px] lg:w-[845px] xl:w-[1100px] universo-font font-normal pt-[29px]'>
           CHAOS is always right around the corner. And we.. my friend, weee are the next APEX generation that will take control of the situation.
         </h3>
-        <h3 className='text-white border-2 border-white p-2 rounded-lg py-6 px-14 lg:px-36 mt-[39px] font-integral'>CA COMING SOON</h3>
+        <h3 className='text-white border-2 border-white p-2 rounded-lg py-6 px-14 lg:px-36 mt-[39px] integral-font font-semibold'>CA COMING SOON</h3>
       </motion.div>
     </div>
   );

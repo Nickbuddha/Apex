@@ -4,7 +4,6 @@ import { Lato } from "next/font/google";
 import { Bebas_Neue } from "next/font/google";
 import "./globals.css";
 
-
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ['400', '500', '600', '700', '800', '900'],
@@ -38,7 +37,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${bebas.variable} ${lato.variable} ${mitr.variable}`}>{children}</body>
+      <body className={` ${montserrat.variable} ${bebas.variable} ${lato.variable} ${mitr.variable}`}>{children}</body>
     </html>
   );
 }

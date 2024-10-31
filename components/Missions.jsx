@@ -46,21 +46,30 @@ const Missions = () => {
         </div>
 
         {/* Derecha - Wanted Level */}
-        <div className="flex flex-col pt-[23px] md:pt-[216px] lg:pt-[68px] w-[400px] lg:top-0 absolute bottom-[1rem] right-3 lg:right-[-190px] xl:right-[-124px] lg:relative">
-          <div className='ml-[195px] md:ml-[52px] lg:ml-[-130px]'>
-            <p className="text-white text-[14px] md:text-[20px] lg:text-[24px] font-mitr">REWARDS:</p>
-            <div className="flex mt-[20px] gap-[8px] md:gap-[12px] items-center"> 
+        <div className="flex flex-col pt-[23px] md:pt-[216px] lg:pt-[68px] w-[400px] lg:top-0 absolute bottom-[12rem] right-3 lg:right-[-190px] xl:right-[-124px] lg:relative">
+          <div className='ml-[226px] md:ml-[52px] lg:ml-[-130px]'>
+            <p className="text-white text-[14px] md:text-[20px] lg:text-[24px] universo-font">REWARDS:</p>
               {/* Estrellas */}
+            <div className="flex mt-[20px] gap-[8px] md:gap-[12px] items-center"> 
+              <Image src="/missions/lock.png" alt="Star" width={20} height={20} className="w-5 h-5 md:w-5 md:h-5"/>
+              <p className="text-white text-[11px] md:text-[16px] lg:text-[20px] universo-font">Mission Locked</p>
+            </div>
+            <div className="flex mt-[20px] gap-[8px] md:gap-[12px] items-center"> 
+              <Image src="/missions/monkey.png" alt="Star" width={20} height={20} className="w-5 h-5 md:w-5 md:h-5"/>
+              <p className="text-white text-[11px] md:text-[16px] lg:text-[20px] universo-font">Coming Soon</p>
+            </div>
+              {/* Estrellas */}
+            {/* <div className="flex mt-[20px] gap-[8px] md:gap-[12px] items-center"> 
               <Image src="/missions/Star.png" alt="Star" width={20} height={20} className="w-5 h-5 md:w-7 md:h-7"/>
               <p className="text-white text-[11px] md:text-[16px] lg:text-[20px]">1 WANTED LEVEL</p>
-            </div>
-            <div className="flex gap-[8px] md:gap-[12px] items-center"> 
+            </div> */}
               {/* Estrellas */}
+            {/* <div className="flex gap-[8px] md:gap-[12px] items-center"> 
               <Image src="/missions/binco.png" alt="Star" width={20} height={20} className="w-5 h-5 md:w-7 md:h-7"/>
               <p className="text-white text-[11px] md:text-[16px] lg:text-[20px]">Exclusive Clothing Asset</p>
-            </div>
-            <Image src="/missions/white-pufferm.png" alt="Star" width={184} height={205} className='mt-[21px] block lg:hidden' />
-            <Image src="/missions/white-puffer.png" alt="Star" width={283} height={283} className='mt-[21px] hidden lg:block' />
+            </div> */}
+            {/* <Image src="/missions/white-pufferm.png" alt="Star" width={184} height={205} className='mt-[21px] block lg:hidden' />
+            <Image src="/missions/white-puffer.png" alt="Star" width={283} height={283} className='mt-[21px] hidden lg:block' /> */}
           </div>
         </div>
       </motion.div>

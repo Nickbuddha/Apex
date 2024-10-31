@@ -9,7 +9,7 @@ const Listings = () => {
       <div className="flex flex-col gap-[3px] lg:gap-[19px] lg:pt-[32px]">
         <h2 className='text-white text-[36px] lg:text-[72px] font-bold font-bebas'>LISTINGS</h2>
         <hr className='border-t-2 border-white w-full my-6 lg:pb-[48px] xl:pb-[140px]' />
-        <p className='md:hidden mb-[50px] lg:mb-0 text-white text-[24px] lg:text-[20px] leading-[38px] xl:text-[32px] font-black font-sans'>MAJOR EXCHANGES WHERE APEX WILL BE LISTED</p>
+        <p className='md:hidden mb-[50px] lg:mb-0 text-white text-[18px] lg:text-[20px] leading-[38px] xl:text-[32px] font-black integral-font'>MAJOR EXCHANGES WHERE APEX WILL BE LISTED</p>
         <div className='flex justify-around'>
 
           <motion.div 
@@ -18,7 +18,7 @@ const Listings = () => {
           whileInView={'show'}
           viewport={{once: true, amount: 0.1}} 
           className='flex flex-col gap-[60px] xl:gap-[118px] items-center'>
-            <p className='hidden md:block text-white text-[24px] lg:text-[20px] leading-[38px] xl:text-[32px] font-black font-sans'>MAJOR EXCHANGES WHERE APEX WILL BE LISTED</p>
+            <p className='hidden md:block text-white text-[24px] lg:text-[20px] leading-[38px] xl:text-[32px] font-black integral-font'>MAJOR EXCHANGES WHERE APEX WILL BE LISTED</p>
             {/* BOTONES Lg*/}
             <div className='flex flex-col md:flex-row lg:flex-col gap-[51px] xl:hidden'>
               <div className='flex flex-col lg:flex-row gap-[42px]'>
@@ -30,7 +30,7 @@ const Listings = () => {
                       Coming Soon
                     </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>COINGECKO</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>COINGECKO</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[180px] h-[60px] flex items-center justify-center shadow-xl'>
@@ -40,7 +40,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>COINMARKETCAP</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>COINMARKETCAP</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[180px] h-[60px] flex items-center justify-center shadow-xl'>
@@ -50,7 +50,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>JUPITER</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>JUPITER</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[180px] h-[60px] flex items-center justify-center shadow-xl'>
@@ -60,7 +60,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>BITMART</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>BITMART</h2>
                 </div>
               </div>
               <div className='flex flex-col lg:flex-row gap-[42px]'>
@@ -72,7 +72,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>LBANK</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>LBANK</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[180px] h-[60px] flex items-center justify-center shadow-xl'>
@@ -83,7 +83,7 @@ const Listings = () => {
                   </div>
                   </button>
                   
-                  <h2 className='text-white text-[15px] font-semibold text-center'>MEXC Global</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>MEXC Global</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[180px] h-[60px] flex items-center justify-center shadow-xl'>
@@ -93,7 +93,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>XT.com</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>XT.com</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[180px] h-[60px] flex items-center justify-center shadow-xl'>
@@ -103,7 +103,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>DIGIFINEX</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>DIGIFINEX</h2>
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>COINGECKO</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>COINGECKO</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[224px] h-[84px] flex items-center justify-center shadow-xl'>
@@ -128,7 +128,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>COINMARKETCAP</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>COINMARKETCAP</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[224px] h-[84px] flex items-center justify-center shadow-xl'>
@@ -138,7 +138,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>JUPITER</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>JUPITER</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[224px] h-[84px] flex items-center justify-center shadow-xl'>
@@ -148,7 +148,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>BITMART</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>BITMART</h2>
                 </div>
               </div>
               <div className='flex gap-[42px]'>
@@ -160,7 +160,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>LBANK</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>LBANK</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[224px] h-[84px] flex items-center justify-center shadow-xl'>
@@ -170,7 +170,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>MEXC Global</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>MEXC Global</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[224px] h-[84px] flex items-center justify-center shadow-xl'>
@@ -180,7 +180,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>XT.com</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>XT.com</h2>
                 </div>
                 <div className='flex flex-col transform transition-transform duration-500 hover:translate-y-[-12px] relative'>
                   <button className='bg-grey hover:bg-white rounded-[30px] group w-[224px] h-[84px] flex items-center justify-center shadow-xl'>
@@ -190,7 +190,7 @@ const Listings = () => {
                     Coming Soon
                   </div>
                   </button>
-                  <h2 className='text-white text-[15px] font-semibold text-center'>DIGIFINEX</h2>
+                  <h2 className='text-white text-[15px] font-semibold text-center universo-font'>DIGIFINEX</h2>
                 </div>
               </div>
             </div>
@@ -201,13 +201,13 @@ const Listings = () => {
           whileInView={'show'}
           viewport={{once: true, amount: 0.1}}
           className='flex items-center justify-center'>
-            <div className='w-[200px] h-[420px] md:hidden flex items-center justify-center'>
+            <div className='w-[150px] h-[320px] md:hidden flex items-center justify-center'>
               <Image
                 src="/listings/monkey-listings.png"
                 alt="monkey-listings"
                 layout="responsive"
-                width={315} 
-                height={575} 
+                width={280} 
+                height={500} 
                 className="mx-auto pt-[37px]"
               />
             </div>
