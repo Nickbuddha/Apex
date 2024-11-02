@@ -4,7 +4,7 @@ import { fadeIn } from "@/variants"
 
 const Socials = () => {
   return (
-    <section className='bg-socials bg-center bg-no-repeat bg-cover pt-[60px] pb-[186px] lg:pb-[333px] flex flex-col gap-[29px]'>
+    <section className='bg-socials bg-center bg-no-repeat bg-cover pt-[60px] xxl:[300px] pb-[186px] lg:pb-[333px] xl:pb-[500px] xxl:pb-[1000px] flex flex-col gap-[29px]' id='socials'>
       <div className='container'>
         {/* Título "TOKENOMICS" */}
         <div className="flex flex-col gap-[3px] lg:gap-[19px] lg:pt-[32px]">

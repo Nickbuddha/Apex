@@ -30,7 +30,7 @@ export default function Home() {
     }
 
     return (
-        <main className="w-full bg-black overflow-hidden">
+        <main className="w-full bg-black overflow-hidden pb-[300px]">
             <Header />
             <Hero />
             <Become />
@@ -40,7 +40,7 @@ export default function Home() {
             <Tokenomics />
             <Listings />
             <Socials />
-            <Cuidado />
+            {/* <Cuidado /> */}
             
         </main>
     );

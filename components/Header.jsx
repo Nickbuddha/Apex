@@ -41,9 +41,9 @@ const Header = () => {
             </Link>
           </div>
           {/* nav  */}
-          <Nav containerStyles='hidden lg:flex gap-x-9 xl:gap-x-14 text-black' linkStyles='capitalize text-white p-2 text-[18px] lg:text-[14px] xl:text-[18px] font-bold' />
+          <Nav containerStyles='hidden lg:flex gap-x-9 xl:gap-x-14 text-black' linkStyles='capitalize text-white p-2 text-[18px] lg:text-[14px] xl:text-[18px] font-bold hover:scale-110 transition-transform duration-300' />
           {/* mobile nav  */}
-          <NavMobile containerStyles='lg:hidden' iconStyles='text-3xl' linkStyles='uppercase text-sm text-white' />
+          <NavMobile containerStyles='lg:hidden' iconStyles='text-3xl' linkStyles='uppercase text-sm text-white hover:scale-110 transition-transform duration-300' />
           <div className="lg:flex gap-[30px] xl:gap-[42px] justify-center items-center hidden">
             <div>
               <Link href='https://t.me/apexonsol' target="_blank">
