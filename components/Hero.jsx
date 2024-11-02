@@ -21,7 +21,7 @@ const Hero = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once: true, amount: 0.1}} 
-          className='flex lg:flex-row-reverse lg:gap-[8px] xl:gap-[77px] justify-center gap-[18px] relative'>
+          className='flex lg:flex-row-reverse lg:gap-[8px] xl:gap-[77px] justify-center relative'>
         <div className="absolute lg:hidden top-1/2 left-1/2 lg:left-auto lg:top-auto lg:right-[50%] transform -translate-x-1/2 -translate-y-1/2 lg:translate-y-0 lg:-translate-x-1/2">
           <Image src="/hero/white-button.png" alt="button" width={28} height={28} className='block md:hidden' />
           <Image src="/hero/white-button.png" alt="button" width={50} height={50} className='hidden md:block' />
