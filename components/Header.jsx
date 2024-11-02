@@ -46,20 +46,20 @@ const Header = () => {
           <NavMobile containerStyles='lg:hidden' iconStyles='text-3xl' linkStyles='uppercase text-sm text-white' />
           <div className="lg:flex gap-[30px] xl:gap-[42px] justify-center items-center hidden">
             <div>
-              <Link href='/'>
-                  <Image src='/nav/telegram.png' width={30} height={30} className="hidden lg:flex xl:hidden" />
+              <Link href='https://t.me/apexonsol' target="_blank">
+                  <Image src='/nav/telegram.png' width={30} height={30} className="hidden lg:flex xl:hidden hover:scale-110 transition-transform duration-300" />
               </Link>
-              <Link href='/'>
-                  <Image src='/nav/telegram.png' width={47} height={47} className="hidden xl:flex" />
+              <Link href='https://t.me/apexonsol' target="_blank">
+                  <Image src='/nav/telegram.png' width={47} height={47} className="hidden xl:flex hover:scale-110 transition-transform duration-300" />
               </Link>
             </div>
-            <div className="relative">
-              {/* <Link href='' target="_blank"> */}
-                <button className='text-whiten uppercase drop-shadow-lg justify-center lg:text-[14px] xl:text-[18px] lg:leading-[22px] bg-red hover:bg-redh font-sans font-black py-2 px-10 lg:py-0 xl:py-2 lg:px-8 xl:px-7 flex items-center hover:scale-105 transition duration-300 ease-in-out'>
+            <div className="relative hover:scale-105 transition duration-300 ease-in-out">
+              <Link href='https://x.com/apexonsol' target="_blank">
+                <button className='text-whiten uppercase drop-shadow-lg justify-center lg:text-[14px] xl:text-[18px] lg:leading-[22px] bg-red hover:bg-redh font-sans font-black py-2 px-10 lg:py-0 xl:py-2 lg:px-8 xl:px-7 flex items-center'>
                     BUY APEX
                 </button>
                 <div className="absolute bottom-[-10px] left-[-10px]"><Image src='/nav/white-circle.png' width={28} height={28} /></div>
-              {/* </Link> */}
+              </Link>
             </div>
           </div>
         </div>
